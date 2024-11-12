@@ -1,42 +1,32 @@
-# Password Manager
+<h1 align="center">
+  Password Manager
+</h1>
 
-The PasswordManager is a password generator. It helps in not using the same password on different platforms.
-It uses the "common" password to create a random hash for each site you'd like to have a strong password for.
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
 
-Passwords generated that way are less likely to crack when brute forcing. However, you could manually edit them to create an even more random password.
+<br>
 
-### NOTE
+## ✨ Tecnologias
 
-The steps listed below are not necessary now. You can directly build using the `react-native` CLI from the docs.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-You can also contribute to this project without having Expo installed.
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.io/)
 
-#### Building from source
+## 💻 Projeto
 
-You'll need Node.js, Git and npm (or yarn) on your machine.
+O app "PasswordManager" gera senhas conforme o tamanho selecionado. Este projeto foi criado utilizando as tecnologias React Native e Expo.
 
-1. Get the code
-```bash
-$ git clone https://github.com/nerisz/password-manager-app && cd passwordapp
-```
+## 🚀 Como executar
 
-2. Install all dependencies
-```sh
-$ npm install
-// or
-$ yarn
-```
+- Tenha o [Expo](https://expo.io/) instalado
+- Clone o repositório
+- Instale as dependências com `npm`
+- Inicie o servidor com `npx expo start`
 
-> The `expo` command should now be available. If not, run `$ npm install -g expo-cli`.
-
-3. Meanwhile, [create an Expo account](https://expo.io/signup).
-4. Once depedencies are installed, run (from the app directory)
-```shell
-$ expo build:android
-```
-
-5. Follow the prompt. A build should be queued on Expo servers. When the build finishes, you can download the APK (build artifact) from your Expo dashboard.
-
-## Contributing
-
-This project is written in React Native. If you'd like to add features or something, go ahead and send a PR. 
+Agora você pode acessar pelo seu aparelho utilizando o aplicativo da Expo ou tendo um emulador na sua maquina.
